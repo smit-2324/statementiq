@@ -6,7 +6,7 @@ define('DB_USER', 'your_database_user');
 define('DB_PASS', 'your_database_password');
 
 // Anthropic API key
-define('ANTHROPIC_API_KEY', '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');
+define('ANTHROPIC_API_KEY', getenv('ANTHROPIC_API_KEY') ?: '');
 
 // App settings
 define('APP_NAME', 'StatementScrub');
